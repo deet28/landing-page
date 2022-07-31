@@ -1,0 +1,91 @@
+.About-main{
+  min-height:100vh;
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x:hidden;
+}
+
+.About-section-div{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height:100vh;
+  width:100%;
+  /* background-color: pink; */
+}
+
+
+.About-title-div{
+  width:100%;
+}
+
+.About-title{
+  font-size:2.5rem;
+  padding:1rem;
+  margin-bottom:0;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  background-image: linear-gradient(
+    140deg,
+      #CA4246 16%, 
+      #E16541 26%, 
+      #E16541 46%, 
+      #E16541 83%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+.About-section-nest{
+  min-height:98vh;
+  width:98%;
+  background-color: var(--main-background-color);
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+}
+
+.About-section-p-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:0.5rem;
+}
+
+.About-section{
+  max-width:98%;
+  font-size: 1.1rem;
+  line-height:1.7rem;
+}
+
+.About-contact-section{
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  min-width:98%;
+  max-width:98%;
+  padding:1rem;
+}
+
+.About-contact-links{
+  list-style-type:none;
+  display:flex;
+  flex-direction: row;
+  left:0;
+}
+
+.About-contact-link{
+  text-decoration: underline;
+  margin-right:1.2rem;
+  cursor:pointer;
+}
+
+.About-contact-link:hover{
+  text-decoration: underline black;
+}
+
+

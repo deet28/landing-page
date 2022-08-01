@@ -11,12 +11,14 @@ import Home from './components/home/index'
 import Contact from './components/contact/index'
 import About from './components/about/index'
 import Work from './components/work/index'
+import ScrollToTop from './helpers/ScrollToTop'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Nav/>
+      <ScrollToTop/>
         <Routes>
           <Route path="/" element = {<Home />}/>
           <Route path="/about" element={<About />}/>

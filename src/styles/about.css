@@ -7,16 +7,13 @@
   align-items: center;
   overflow-x:hidden;
 }
-
 .About-section-div{
   display:flex;
   align-items: center;
   justify-content: center;
   min-height:100vh;
   width:100%;
-  /* background-color: pink; */
 }
-
 
 .About-title-div{
   width:100%;
@@ -40,6 +37,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
+
 .About-section-nest{
   min-height:98vh;
   width:98%;
@@ -61,6 +59,7 @@
   max-width:98%;
   font-size: 1.1rem;
   line-height:1.7rem;
+  font-weight:600;
 }
 
 .About-contact-section{
@@ -86,6 +85,11 @@
 
 .About-contact-link:hover{
   text-decoration: underline black;
+}
+
+.About-talk{
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 

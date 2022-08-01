@@ -3,6 +3,7 @@
 @import './about.css';
 @import './contact.css';
 @import './work.css';
+@import './footer.css';
 
 .App {
   text-align: center;

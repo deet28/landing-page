@@ -1,7 +1,10 @@
+import Footer from '../footer/index.js';
+import { Link } from 'react-router-dom'
 
 const About = () => {
 
   return (
+    <>
     <div className = "About-main">
       <div className = "About-section-div">
         <div className = "About-section-nest">
@@ -15,20 +18,25 @@ const About = () => {
           <div className = "About-section-p-div">
 
           <p className = "About-section">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet mauris commodo quis imperdiet. Id semper risus in hendrerit gravida rutrum quisque non. 
+            I am a web/mobile app developer and a front end designer. I have been fascinated with computers, and have been learning about them for as long as I can remember. In my time as a web developer, I've worked on freelance projects for various clients. I moved into working on mobile apps more recently, when I started working for a language learning app that is currently published in the app store.
           </p>
+
           <p className = "About-section">
-            Tristique senectus et netus et malesuada. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. Diam phasellus vestibulum lorem sed risus ultricies tristique. Id faucibus nisl tincidunt eget nullam non nisi est. Fermentum et sollicitudin ac orci. 
+            My journey in web development took a slight detour when I went to school for psychology. Here, my primary focus was to learn more about human perception and behavior. The knowledge that I picked up in university helps to guide the decisions I make when considering web design and software implementation. My goal is always to strike the perfect balance between aesthically pleasing and approachable. 
           </p>
            <p className = "About-section">
-            Tristique senectus et netus et malesuada. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. Diam phasellus vestibulum lorem sed risus ultricies tristique. Id faucibus nisl tincidunt eget nullam non nisi est. Fermentum et sollicitudin ac orci. 
-          </p>
+            With several projects behind me, I am looking for new ways to grow in this industry.
+            </p>
+            
+            <Link to = "/contact" className = "Link-style"> 
+            <span className = "About-talk">Let's talk!</span>
+            </Link>
+          
           </div>
           
 
           <div className = "About-contact-section">
             <ul className = "About-contact-links">
-              <li className = "About-contact-link">Email</li>
               <li className = "About-contact-link">LinkedIn</li>
               <li className = "About-contact-link">Github</li>
               <li className = "About-contact-link">Codepen</li>
@@ -38,6 +46,8 @@ const About = () => {
         </div>
       </div>
     </div>
+    <Footer />
+    </>
   )
 }
 

@@ -4,7 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow-x:hidden;
+  overflow:hidden;
+  margin-bottom:3rem;
 }
 .Contact-section-div{
   display:flex;
@@ -48,7 +49,6 @@
 
 .Contact-form-main{
   width:100vw;
-  height:100vh;
 }
 
 .Contact-form-div{
@@ -137,5 +137,25 @@
 @media screen and (max-width:700px){
   .Form-message{
     width:90%;
+  }
+}
+
+@media screen and (max-width:350px){
+  .Contact-main{
+    margin-bottom:3rem;
+  }
+  .Contact-title{
+    font-size:2rem;
+  }
+  .Form-label{
+    font-size: 1rem;
+  }
+  .Form-input{
+    width:80%;
+    height:1.4rem;
+    font-size: 1rem;
+  }
+  .Form-message-div{
+    margin-top:1rem;
   }
 }

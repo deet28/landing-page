@@ -18,8 +18,7 @@
 
 .Contact-section-nest{
   min-height:98vh;
-  width:98%;
-  background-color: var(--main-background-color);
+  width:100vw;
   color:white;
   display: flex;
   flex-direction: column;
@@ -59,9 +58,7 @@
 .Contact-form-div{
   display:grid;
   grid-template-columns:1fr 1fr;
-  align-content: center;
-  justify-items: center;
-  grid-gap:5px;
+  padding:1rem;
 }
 
 .Form-nest-div{
@@ -75,12 +72,16 @@
 .Form-input{
   width:90%;
   height:1.7rem;
-  border-radius:2px;
-  border:transparent;
-  margin-top:0.5rem;
+  outline:none;
+  background-color: transparent;
+  color:white;
   font-size:1rem;
   font-weight: bold;
-  padding:0.4rem;
+  padding:0.1rem;
+  margin-top:0.5rem;
+  border-radius:2px;
+  border:transparent;
+  border-bottom:1px solid white;
 }
 
 .Form-label{
@@ -97,12 +98,13 @@
 }
 
 .Form-message{
-  font-size:1rem;
+  font-size:1.2rem;
   font-weight: bold;
   resize: none;
   outline:none;
+  line-height:1.5rem;
   width:90%;
-  padding:1rem;
+  border-radius: 6px;
 }
 
 .Form-submit-div{
@@ -125,4 +127,14 @@
 
 .required{
   color:red;
+}
+
+
+@media screen and (max-width:700px){
+  .Contact-main{
+    margin-bottom:3rem;
+  }
+  .Form-message{
+    width:80%;
+  }
 }

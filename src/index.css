@@ -9,6 +9,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color:var(--main-background-color);
   overflow-x:hidden;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 code {

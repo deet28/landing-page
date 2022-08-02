@@ -8,7 +8,6 @@ const Contact = () => {
     <div className = "Contact-main">
       <div className = "Contact-section-div">
         <div className = "Contact-section-nest">
-
           <div className = "Contact-title-div">
             <h1 className = "Contact-title">Let's talk!</h1>
             <ContactForm/>
@@ -16,6 +15,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    
     <Footer />
   </>
   )

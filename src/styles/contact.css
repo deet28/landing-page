@@ -1,23 +1,19 @@
 .Contact-main{
-  min-height:100vh;
   width:100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow-x:hidden;
-  
 }
 .Contact-section-div{
   display:flex;
   align-items: center;
   justify-content: center;
-  min-height:100vh;
   width:100%;
 }
 
 .Contact-section-nest{
-  min-height:98vh;
   width:100vw;
   color:white;
   display: flex;
@@ -59,12 +55,12 @@
   display:grid;
   grid-template-columns:1fr 1fr;
   padding:1rem;
+  width:100%;
 }
 
 .Form-nest-div{
   display:flex;
   flex-direction: column;
-  width:100%;
   padding:0.1rem;
   margin-top:1rem;
 }
@@ -92,9 +88,10 @@
 .Form-message-div{
   display:flex;
   flex-direction: column;
-  align-items: center;
-  width:95%;
-  margin-top:1rem;
+  align-items: left;
+  width:100%;
+  margin-top:3rem;
+  margin-left:1rem;
 }
 
 .Form-message{
@@ -103,8 +100,10 @@
   resize: none;
   outline:none;
   line-height:1.5rem;
-  width:90%;
+  width:95%;
   border-radius: 6px;
+  box-sizing:border-box;
+  padding:10px;
 }
 
 .Form-submit-div{
@@ -125,16 +124,18 @@
   font-weight: bold;
 }
 
+.Form-submit:hover{
+  cursor:pointer;
+  background-color:#758349;
+}
+
 .required{
   color:red;
 }
 
 
 @media screen and (max-width:700px){
-  .Contact-main{
-    margin-bottom:3rem;
-  }
   .Form-message{
-    width:80%;
+    width:90%;
   }
 }

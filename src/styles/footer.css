@@ -18,6 +18,7 @@
   display:flex;
   justify-content: center;
   align-items: center;
+  bottom:0;
 }
 
 .Footer-nest{
@@ -62,10 +63,6 @@
   border-radius:40px;
   padding:0.5rem;
 }
-
-.Footer-icon{
-}
-
 .Footer-icon:hover{
   cursor:pointer;
   transform:translateY(1%);

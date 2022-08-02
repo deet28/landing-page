@@ -7,7 +7,6 @@ const ContactForm = () => {
     <div className = "Contact-form-div">
         
         <div className = "Form-nest-div">
-          
           <label 
             htmlFor = "form" 
             className = "Form-label">
@@ -19,7 +18,6 @@ const ContactForm = () => {
             className = "Form-input" 
             name = "First Name"
             required/>
-        
         </div>
       
         <div className = "Form-nest-div">
@@ -63,15 +61,22 @@ const ContactForm = () => {
         </div>
       </div>
       
+      
       <div className = "Form-message-div">
-          <label className = "Form-label" htmlFor = "textarea">Message 
-          <span className = "required">*</span></label>
-          <textarea 
+        
+        <label 
+          className = "Form-label" 
+          htmlFor = "textarea">
+            Message <span className = "required">*</span>
+        </label>
+        
+        <textarea 
             type = "text" 
             className = "Form-message" 
             rows = "12" 
             name = "Message"
-            required/>
+            required
+        />
       </div>
 
       <div className = "Form-submit-div">

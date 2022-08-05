@@ -1,4 +1,5 @@
 import Footer from '../footer/index.js';
+import { openSite } from './helpers'
 import { Link } from 'react-router-dom'
 
 const About = () => {
@@ -33,13 +34,23 @@ const About = () => {
             </Link>
           
           </div>
-          
-
           <div className = "About-contact-section">
             <ul className = "About-contact-links">
-              <li className = "About-contact-link">LinkedIn</li>
-              <li className = "About-contact-link">Github</li>
-              <li className = "About-contact-link">Codepen</li>
+              <li 
+                className = "About-contact-link"
+                onClick = {openSite}>
+                  LinkedIn
+              </li>
+              <li 
+                className = "About-contact-link"
+                onClick = {openSite}>
+                  Github
+                </li>
+              <li 
+                className = "About-contact-link"
+                onClick = {openSite}>
+                  Codepen
+              </li>
             </ul>
           </div>
             

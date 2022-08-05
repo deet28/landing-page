@@ -26,11 +26,14 @@
 
 .About-title-div{
   width:100%;
+  display:flex;
+  justify-content: center;
 }
 
 .About-title{
   font-size:2.5rem;
-  padding:1rem;
+  padding:0.5rem;
+  width:85%;
   margin-bottom:0;
   border-top:1px solid white;
   border-bottom:1px solid white;
@@ -54,23 +57,25 @@
   flex-direction: column;
   justify-content: center;
   padding:0.5rem;
+  width:85%;
 }
 
 .About-section{
   max-width:98%;
-  font-size: 1.1rem;
-  line-height:1.7rem;
-  font-weight:600;
-  word-spacing:0.4rem;
+  font-size: 1.5rem;
+  line-height:2.1rem;
+  letter-spacing:0;
+  word-spacing:0.2rem;
 }
 
 .About-contact-section{
-  border-top:1px solid white;
-  border-bottom:1px solid white;
-  min-width:98%;
-  max-width:98%;
+  border-top:3px solid white;
+  border-bottom:3px solid white;
+  min-width:100%;
+  max-width:1000%;
   padding:1rem;
   margin-top:3rem;
+  margin-bottom:1rem;
 }
 
 .About-contact-links{
@@ -87,9 +92,12 @@
   font-weight: bold;
 }
 
+
 .About-talk{
   font-weight: bold;
   text-decoration: underline;
+  padding:0.1rem;
+  font-size:1.2rem;
 }
 
 

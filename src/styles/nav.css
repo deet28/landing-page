@@ -43,3 +43,43 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+
+.Mobile-nav-main{
+  display:flex;
+  width:100%;
+  min-height:7vh;
+  justify-content: end;
+  align-items: center;
+}
+
+.Mobile-nav-button {
+  z-index: 3;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  margin-right:7%;
+  margin-top:1.5%;
+}
+.Mobile-nav-button .Button-line {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: black;
+  transition: all 0.5s ease-out;
+}
+
+.close {
+  transform: rotate(180deg);
+}
+.close:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+ 
+.close:nth-child(2) {
+  opacity: 0;
+}
+ 
+.close:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+ 

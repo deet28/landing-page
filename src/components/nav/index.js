@@ -1,7 +1,24 @@
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import Routes from './Routes';
+import MobileNav from './MobileNav'
 
 const Nav = () => {
+
+  const [mobile, setMobile] = useState(
+    window.innerWidth<800 ? true : false
+  );
+  
+  useEffect(()=>{
+    window.addEventListener('resize',()=>{
+      if(window.innerWidth<800){
+        setMobile(true)
+      } else {
+        setMobile(false);
+      }
+    })
+  },[window.innerWidth])
+
   return (
     <nav className = "Nav-main">
       
@@ -10,7 +27,7 @@ const Nav = () => {
           <button className = "Nav-home-button">Home</button>
         </Link>
       </div>
-      <Routes/>
+      {mobile  ? <MobileNav/> : <Routes/>}
     
     </nav>
   )

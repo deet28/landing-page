@@ -1,33 +1,33 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom';
-import Routes from './Routes';
+import { Link } from 'react-router-dom'
+import Routes from './Routes'
 import MobileNav from './MobileNav'
 
 const Nav = () => {
-
+  
   const [mobile, setMobile] = useState(
     window.innerWidth<800 ? true : false
   );
-  
+
   useEffect(()=>{
-    window.addEventListener('resize',()=>{
-      if(window.innerWidth<800){
-        setMobile(true)
+  window.addEventListener('resize',()=>{
+    if(window.innerWidth<800){
+      setMobile(true)
       } else {
-        setMobile(false);
+      setMobile(false);
       }
     })
   },[window.innerWidth])
 
   return (
-    <nav className = "Nav-main">
-      
-      <div className = "Nav-home-button-div">
+  <nav className = "Nav-main">
+    <div className = "Nav-home-button-div">
         <Link to = "/" className = "Link-style">
           <button className = "Nav-home-button">Home</button>
         </Link>
       </div>
-      {mobile  ? <MobileNav/> : <Routes/>}
+      {mobile  ? <MobileNav /> :<Routes/>
+      }
     
     </nav>
   )

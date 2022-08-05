@@ -59,9 +59,9 @@
 .email{
   height:2.2rem;
   width:2.2rem;
-  filter:invert(100%);
   border-radius:40px;
   padding:0.5rem;
+  /* filter:brightness(0.5) contrast(200%) sepia(130) */
 }
 .Footer-icon:hover{
   cursor:pointer;

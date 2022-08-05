@@ -29,3 +29,7 @@ code {
 :root {
   --main-background-color: rgb(88, 87, 90);
 }
+
+.hidden{
+  display:none;
+}

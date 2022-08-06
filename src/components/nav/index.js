@@ -26,10 +26,8 @@ const Nav = () => {
           <button className = "Nav-home-button">Home</button>
         </Link>
       </div>
-      {mobile  ? <MobileNav /> :<Routes/>
-      }
-    
-    </nav>
+      {mobile  ? <MobileNav /> :<Routes/>}
+  </nav>
   )
 }
 

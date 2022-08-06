@@ -21,7 +21,11 @@ const MobileNav = () => {
           />
       </div>
     </div>
-    {showMenu ? <MobileMenu /> : ''}
+    {showMenu ? 
+      <MobileMenu setShowMenu = {setShowMenu} /> 
+      : 
+      ''
+    }
     </>
   )
 }

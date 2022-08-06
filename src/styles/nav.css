@@ -25,6 +25,10 @@
   color:purple;
   font-weight: bold;
 }
+
+.Nav-home-button{
+  cursor:pointer;
+}
 .Nav-list{
   list-style-type: none;
   display:flex;
@@ -87,19 +91,24 @@
 .Mobile-nav-menu{
   background-color: black;
   opacity: 0.9;
-  height:100%;
-  width:100%;
+  min-height:100%;
+  width:100vw;
   z-index:10;
   position:fixed;
+  overflow-y: hidden;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
   animation: menu-down 0.4s linear;
 }
 
 @keyframes menu-down{
   0%{
-    margin-top:-30em;
+    margin-top:-30vh;
   }
   50%{
-    margin-top:-10em;
+    margin-top:-10vh;
   }
   100%{
     margin-top:0;

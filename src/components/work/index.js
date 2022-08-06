@@ -1,3 +1,4 @@
+import List from './List'
 import Footer from '../footer/index'
 
 const Work = () => {
@@ -7,7 +8,6 @@ const Work = () => {
     <div className = "Work-main">
       <div className = "Work-section-div">
         <div className = "Work-section-nest">
-
           <div className = "Work-title-div">
             <h1 className = "Work-title">Work</h1>
           </div>

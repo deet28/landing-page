@@ -1,3 +1,4 @@
+import Tech from './Tech'
 import Footer from '../footer/index.js';
 import { openSite } from './helpers'
 import { Link } from 'react-router-dom'
@@ -25,6 +26,8 @@ const About = () => {
           <p className = "About-section">
             My journey in web development took a slight detour when I went to school for psychology. Here, my primary focus was to learn more about human perception and behavior. The knowledge that I picked up in university helps to guide the decisions I make when considering web design and software implementation. My goal is always to strike the perfect balance between aesthically pleasing and approachable. 
           </p>
+
+          <Tech/>
            <p className = "About-section">
             With several projects behind me, I am looking for new ways to grow in this industry.
             </p>

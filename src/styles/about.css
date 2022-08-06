@@ -16,6 +16,7 @@
 }
 
 .About-section-nest{
+  border:2px solid white;
   min-height:98vh;
   width:98%;
   color:white;
@@ -35,8 +36,8 @@
   padding:0.5rem;
   width:85%;
   margin-bottom:0;
-  border-top:1px solid white;
-  border-bottom:1px solid white;
+  border-top:2px solid white;
+  border-bottom:2px solid white;
   background-image: linear-gradient(
       140deg,
       #CA4246 16%, 
@@ -49,8 +50,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
-
-
 
 .About-section-p-div{
   display: flex;
@@ -83,6 +82,7 @@
   list-style-type:none;
   display:flex;
   flex-direction: row;
+  justify-content: center;
   left:0;
 }
 
@@ -91,6 +91,8 @@
   margin-right:1.2rem;
   cursor:pointer;
   font-weight: bold;
+  font-size:1.1rem;
+
 }
 
 
@@ -102,3 +104,82 @@
 }
 
 
+/* About tech stack styling*/
+
+.About-tech-main{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.About-tech-grid-parent{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap:10px;
+  justify-items: left;
+  align-content: center;
+  width:100%;
+  border-radius:10px;
+}
+.About-tech-grid{
+  border:1px solid transparent;
+  border-radius:10px;
+  color:white;
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: left;
+  background-color:rgb(49, 48, 48);
+}
+
+.About-tech-grid > p {
+  font-size:1.3rem;
+  font-weight: bold;
+  line-height:1.4rem;
+  letter-spacing:0.1rem;
+  width:80%;
+  margin-left:5%;
+}
+.dev-title{
+  font-size:2rem;
+  font-weight:bold;
+  text-decoration: underline red
+}
+
+.frame-title{
+  font-size:2rem;
+  font-weight:bold;
+  text-decoration: underline orange
+}
+
+.other-title{
+  font-size:2rem;
+  font-weight:bold;
+  text-decoration: underline green;
+}
+
+
+@media screen and (min-width:1000px){
+  .About-tech-grid-parent{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    max-height:fit-content;
+  }
+  .About-tech-grid{
+    border:1px solid black;
+    border-radius:10px;
+    border:1px solid transparent;
+    color:white;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+}
+}

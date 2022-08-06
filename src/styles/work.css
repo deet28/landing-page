@@ -13,6 +13,7 @@
   justify-content: center;
   min-height:100vh;
   width:100%;
+  border:2px solid white;
 }
 
 .Work-section-nest{
@@ -21,19 +22,22 @@
   color:white;
   display: flex;
   flex-direction: column;
-  align-items:center ;
+  align-items:center;
 }
 
 .Work-title-div{
   width:100%;
+  display:flex;
+  justify-content: center;
 }
 
 .Work-title{
   font-size:2.5rem;
-  padding:1rem;
+  padding:0.5rem;
+  width:85%;
   margin-bottom:0;
-  border-top:1px solid white;
-  border-bottom:1px solid white;
+  border-top:2px solid white;
+  border-bottom:2px solid white;
   background-image: linear-gradient(
     140deg,
       #CA4246 16%, 
@@ -48,5 +52,8 @@
 }
 
 .Work-list-main{
+  border:2px solid white;
+  min-height:100%;
+  min-width:100%;
   
 }

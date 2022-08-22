@@ -11,6 +11,7 @@ const Work = () => {
           <div className = "Work-title-div">
             <h1 className = "Work-title">Work</h1>
           </div>
+          <List/>
         </div>
       </div>
     </div>

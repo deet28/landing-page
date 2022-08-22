@@ -20,7 +20,7 @@ const About = () => {
           <div className = "About-section-p-div">
 
           <p className = "About-section">
-            I am a web/mobile app developer and a front end designer. I have been fascinated with computers, and have been learning about them for as long as I can remember. In my time as a web developer, I've worked on freelance projects for various clients. I moved into working on mobile apps more recently, when I started working for a language learning app that is currently published in the app store.
+            I am a web/mobile app software engineer. I have been fascinated with computers, and have been learning about them for as long as I can remember. In my time in web development, I've worked on freelance projects for various clients. I moved into working on mobile apps more recently when I started working for a language learning app that is currently published in the app store.
           </p>
 
           <p className = "About-section">

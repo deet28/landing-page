@@ -23,7 +23,7 @@ const Tech = () => {
           </span>
           <p>
             Experienced in Javascript, Typescript, HTML, and CSS. 
-            Proficient with React framework, as well as React-Native for mobile app development. Proficient with Redux for managing global state in web applications.
+            Proficient with React framework, as well as React-Native for mobile app development. Proficient with Redux for managing global state in web applications. Experience with Python and Django framework. 
           </p>  
        </div>  
 
@@ -39,5 +39,11 @@ const Tech = () => {
   </div>
   )
 }
+
+//https://www.freecodecamp.org/certification/fccc4678536-8929-47a1-ba8b-ec9abbf0bbb3/javascript-algorithms-and-data-structures
+
+//https://www.freecodecamp.org/certification/fccc4678536-8929-47a1-ba8b-ec9abbf0bbb3/responsive-web-design
+
+//
 
 export default React.memo (Tech)

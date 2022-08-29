@@ -1,5 +1,5 @@
 import React from 'react';
-const Tech = () => {
+const TechList = () => {
 
 return (
     <div className = "About-tech-main">
@@ -33,7 +33,7 @@ return (
   </div>
   )
 }
-export default React.memo (Tech)
+export default React.memo (TechList)
 
 //https://www.freecodecamp.org/certification/fccc4678536-8929-47a1-ba8b-ec9abbf0bbb3/javascript-algorithms-and-data-structures
 

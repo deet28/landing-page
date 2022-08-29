@@ -10,6 +10,7 @@
 }
 .Work-section-div{
   display:flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   min-height:100vh;
@@ -56,9 +57,12 @@
   background-color: rgb(108, 78, 78);
   border:2px solid white;
   min-height:100%;
-  min-width: 85%;
-  max-width:85%;
+  width:100%;
   margin-top:1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Work-list-title{
@@ -68,6 +72,14 @@
 .Work-list-nest{
   border-top:5px solid #CA4246;
   margin-bottom:2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Work-list-nest-child{
+  width:80%;
 }
 .Work-list-nest h1 {
   text-decoration: underline;
@@ -84,19 +96,52 @@
   display:flex;
   justify-content: center;
   width:80%;
+  padding:1rem;
+  border-right:1px solid black;
+  border-top:1px solid black;
 }
 
 .Work-list-p{
   min-width: 100%;
   max-width:100%;
-  line-height:1.5rem;
+  line-height:1.8rem;
   font-weight: bold;
+  border:2px solid black;
+  padding:2rem;
+  display:flex;
+  align-items: center;
 }
 
 .Work-list-tech{
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
   font-weight: 800;
-  min-width:95%;
+  min-width:100%;
+  min-height:100%;
+  margin-top:1rem;
+  border-top:2px solid#8B9862; 
+}
+
+.Work-list-tech span{
+  text-align: center;
+  margin-top:2rem;
+}
+
+@media screen and (min-width:1000px){
+  .Work-list-main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+ .Work-list-nest-child{
+    min-height:30rem !important;
+  }
+  .Work-list-p{
+    min-height:20rem !important;
+  }
 }

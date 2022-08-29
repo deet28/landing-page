@@ -59,6 +59,11 @@
   width:85%;
 }
 
+.About-section-about-div{
+  padding:0.5rem;
+  width:85%;
+}
+
 .About-section{
   max-width:98%;
   font-size: 1.5rem;
@@ -94,8 +99,6 @@
   font-size:1.1rem;
 
 }
-
-
 .About-talk{
   font-weight: bold;
   text-decoration: underline;
@@ -104,7 +107,7 @@
 }
 
 
-/* About tech stack styling*/
+/* About tech stack styling */
 
 .About-tech-main{
   width:100%;
@@ -114,6 +117,7 @@
   align-items: left;
   justify-content: center;
   font-size: 1.5rem;
+  margin-bottom:1rem;
 }
 
 .About-tech-grid-parent{
@@ -141,39 +145,21 @@
 .About-tech-grid > p {
   font-size:1.3rem;
   font-weight: bold;
-  line-height:1.4rem;
+  line-height:2rem;
   letter-spacing:0.1rem;
   width:80%;
   margin-left:5%;
 }
-.dev-title{
-  font-size:2rem;
-  font-weight:bold;
-  text-decoration: underline red
-}
-
-.frame-title{
-  font-size:2rem;
-  font-weight:bold;
-  text-decoration: underline orange
-}
-
-.other-title{
-  font-size:2rem;
-  font-weight:bold;
-  text-decoration: underline green;
-}
-
 
 @media screen and (min-width:1000px){
   .About-tech-grid-parent{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    max-height:fit-content;
+    grid-template-rows: 1fr;
+    max-height: fit-content;
+    padding:1rem;
   }
   .About-tech-grid{
-    border:1px solid black;
     border-radius:10px;
     border:1px solid transparent;
     color:white;
@@ -181,5 +167,5 @@
     display:flex;
     flex-direction: column;
     align-items: left;
-}
+  }
 }

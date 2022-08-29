@@ -1,18 +1,18 @@
 import React from 'react';
 
-const List=()=>{
+const WorkList=()=>{
 
   return (
     <div className="Work-list-main">
       
       <h1 className='Work-list-title'>Personal Projects</h1>
-
       <div className="Work-list-nest">
         <h1>Battleship</h1>
         <div className="Work-list-item">
           <div className="Work-list-item-nest">
             <p className="Work-list-p">
-              This project is Battleship made with vanilla JS, HTML, and CSS.
+              Created a version of BattleShip to keep youths in adolescent psych unit busy while they had limited access to technology. 
+              This project was made with vanilla JS, HTML, and CSS.
               Users play against a computer that randomly places its ships and
               attacks the player. Computer attacks are decided using AI, which
               has the computer choosing its subsequent attacks based on the
@@ -29,24 +29,17 @@ const List=()=>{
       </div>
 
       <div className="Work-list-nest">
-        <h1>Battleship</h1>
+        <h1>Notebooks</h1>
         <div className="Work-list-item">
           <div className="Work-list-item-nest">
             <p className="Work-list-p">
-              This project is Battleship made with vanilla JS, HTML, and CSS.
-              Users play against a computer that randomly places its ships and
-              attacks the player. Computer attacks are decided using AI, which
-              has the computer choosing its subsequent attacks based on the
-              outcome of previous ones. Testing is implemented using Jest. This
-              project makes use of factory functions to build out gameplay
-              design.
+              This project was built with Python using the Django framework. Users can sign up, and are authenticated using Django's user authentication system. After signing in, users can create books and write notes into specific books. Users only have access to their own notes and books; this access is restricted using a hybrid of mixins and redirects. 
             </p>
           </div>
           <div className="Work-list-tech">
-            <span>Javascript</span> <span>Jest</span>
+            <span>Python</span> <span>Django</span>
             <span>HTML</span> <span>CSS</span>
-            <span>Jest</span> <span>Webpack</span>
-            <span>TDD</span> <span>AI</span>
+            <span>Whitenoise</span> <span>Gunicorn</span>
           </div>
         </div>
       </div>
@@ -54,4 +47,4 @@ const List=()=>{
   );
 }
 
-export default React.memo(List);
+export default React.memo(WorkList);

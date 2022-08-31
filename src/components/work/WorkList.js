@@ -23,6 +23,10 @@ const WorkList=()=>{
                   using white noise for configuration.
                 </p>
               </div>
+              <div className="Work-list-buttons">
+                <span>Visit Site</span>
+                <span>View Code</span>
+              </div>
               <div className="Work-list-tech">
                 <span>Python</span> <span>Django</span>
                 <span>HTML</span> <span>CSS</span>
@@ -47,6 +51,10 @@ const WorkList=()=>{
                   on the outcome of previous ones. Testing is implemented using
                   Jest.
                 </p>
+              </div>
+              <div className="Work-list-buttons">
+                <span>Visit Site</span>
+                <span>View Code</span>
               </div>
               <div className="Work-list-tech">
                 <span>Javascript</span> <span>Jest</span>
@@ -73,6 +81,9 @@ const WorkList=()=>{
                   through Firebase. Local state management is handled using
                   Redux.
                 </p>
+              </div>
+              <div className="Work-list-buttons">
+                <span>Visit Site</span>
               </div>
               <div className="Work-list-tech">
                 <span>React</span> <span>Redux</span>

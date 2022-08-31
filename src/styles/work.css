@@ -85,7 +85,7 @@
   text-decoration: underline;
 }
 .Work-list-item{
-  min-height:5rem;
+  min-height:6rem;
   width:100%;
   display:flex;
   flex-direction:column;
@@ -130,6 +130,48 @@
   margin-top:2rem;
 }
 
+@media screen and (max-width:600px){
+  .Work-list-tech span{
+    font-size: 0.9rem;
+  }
+  .Work-list-p{
+    line-height:1.8rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  .Work-title{
+    font-size:1.8rem;
+  }
+  .Work-list-title{
+    font-size:1.5rem;
+    text-align: left;
+  }
+  .Work-list-nest h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width:350px){
+  .Work-list-tech span{
+    font-size: 0.7rem;
+    margin-top:0.5rem;
+  }
+   .Work-list-p{
+    line-height:1.5rem;
+    font-size: 0.9rem;
+  }
+  .Work-title{
+    font-size:1.7rem;
+  }
+  .Work-list-title{
+    font-size:1.4rem;
+    text-align: left;
+  }
+  .Work-list-nest h1 {
+    font-size: 1.4rem;
+  }
+}
+
 @media screen and (min-width:1000px){
   .Work-list-main{
     display:grid;
@@ -138,8 +180,9 @@
     align-items: center;
     justify-content: center;
   }
- .Work-list-nest-child{
-    min-height:30rem !important;
+ .Work-list-item{
+    min-height:30rem;
+    max-height: 30rem;
   }
   .Work-list-p{
     min-height:20rem !important;

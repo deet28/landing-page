@@ -8,7 +8,6 @@ return (
         Expertise
       </h2>
     <div className = "About-tech-grid-parent">
-      
       <div className = "About-tech-grid dev">
         <span className = "dev-title">General</span>
         <p>

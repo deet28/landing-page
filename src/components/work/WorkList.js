@@ -26,7 +26,7 @@ const WorkList=()=>{
               <div className="Work-list-tech">
                 <span>Javascript</span> <span>Jest</span>
                 <span>HTML</span> <span>CSS</span>
-                <span>Jest</span> <span>Webpack</span>
+                <span>Webpack</span>
                 <span>TDD</span> <span>AI</span>
               </div>
             </div>
@@ -39,6 +39,7 @@ const WorkList=()=>{
             <div className="Work-list-item">
               <div className="Work-list-item-nest">
                 <p className="Work-list-p">
+                  Created a note taking app using a built in database.
                   This project was built with Python using the Django framework.
                   Users can sign up, and are authenticated using Django's user
                   authentication system. After signing in, users can create
@@ -50,7 +51,7 @@ const WorkList=()=>{
               <div className="Work-list-tech">
                 <span>Python</span> <span>Django</span>
                 <span>HTML</span> <span>CSS</span>
-                <span>Whitenoise</span> <span>Gunicorn</span>
+                <span>Whitenoise</span>
               </div>
             </div>
           </div>

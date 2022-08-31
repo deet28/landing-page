@@ -5,8 +5,33 @@ const WorkList=()=>{
   return (
     <>
       <h1 className="Work-list-title">Personal Projects</h1>
-
       <div className="Work-list-main">
+        <div className="Work-list-nest">
+          <div className="Work-list-nest-child">
+            <h1>Notebooks</h1>
+            <div className="Work-list-item">
+              <div className="Work-list-item-nest">
+                <p className="Work-list-p">
+                  Created a note taking app with a built-in database. This
+                  project was built with Python using the Django framework.
+                  Users can sign up, and are authenticated using Django's user
+                  authentication system. After signing in, users can create
+                  books and write notes into specific books. Users only have
+                  access to their own notes and books; this access is restricted
+                  using a hybrid of mixins and redirects. This project uses
+                  Django's build in SQLite database. It is hosted on Heroku,
+                  using white noise for configuration.
+                </p>
+              </div>
+              <div className="Work-list-tech">
+                <span>Python</span> <span>Django</span>
+                <span>HTML</span> <span>CSS</span>
+                <span>Whitenoise</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="Work-list-nest">
           <div className="Work-list-nest-child">
             <h1>Battleship</h1>
@@ -35,23 +60,25 @@ const WorkList=()=>{
 
         <div className="Work-list-nest">
           <div className="Work-list-nest-child">
-            <h1>Notebooks</h1>
+            <h1>'Readit'</h1>
             <div className="Work-list-item">
               <div className="Work-list-item-nest">
                 <p className="Work-list-p">
-                  Created a note taking app using a built in database.
-                  This project was built with Python using the Django framework.
-                  Users can sign up, and are authenticated using Django's user
-                  authentication system. After signing in, users can create
-                  books and write notes into specific books. Users only have
-                  access to their own notes and books; this access is restricted
-                  using a hybrid of mixins and redirects. This project uses Django's build in SQLite database. It is hosted on Heroku, using white noise for configuration.
+                  I created a replica of one of my favorite websites (Reddit)
+                  using React and Firebase. Anybody can create a user and log
+                  into this website to post, like, and dislike content. User
+                  posts and likes are tracked, and users can see what they've
+                  liked and created after they are logged in. Data is stored and
+                  retrieved from Firebase. User authentication is handled
+                  through Firebase. Local state management is handled using
+                  Redux.
                 </p>
               </div>
               <div className="Work-list-tech">
-                <span>Python</span> <span>Django</span>
-                <span>HTML</span> <span>CSS</span>
-                <span>Whitenoise</span>
+                <span>React</span> <span>Redux</span>
+                <span>Javascript</span> <span>JSX</span>
+                <span>CSS</span>
+                <span>Firebase</span>
               </div>
             </div>
           </div>

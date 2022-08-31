@@ -69,6 +69,13 @@
   text-align: center;
   text-decoration: underline;
 }
+.Work-professional{
+  background-color: rgb(173, 86, 86);
+}
+.Nest-professional{
+  border-top:5px solid rgb(108, 78, 78) !important;
+}
+
 .Work-list-nest{
   border-top:5px solid #CA4246;
   margin-bottom:2rem;
@@ -215,10 +222,10 @@
     justify-content: center;
   }
  .Work-list-item{
-    min-height:30rem;
-    max-height: 30rem;
+    min-height:40rem;
+    max-height: 40rem;
   }
   .Work-list-p{
-    min-height:20rem !important;
+    min-height:25rem !important;
   }
 }

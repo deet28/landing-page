@@ -1,4 +1,5 @@
 import React from 'react';
+import {openSite} from './helpers'
 
 const WorkList=()=>{
 
@@ -24,8 +25,16 @@ const WorkList=()=>{
                 </p>
               </div>
               <div className="Work-list-buttons">
-                <span>Visit Site</span>
-                <span>View Code</span>
+                <span 
+                  onClick={openSite} 
+                  id="Note Site">
+                  Visit Site
+                </span>
+                <span 
+                  onClick={openSite} 
+                  id="Note Site">
+                  View Code
+                </span>
               </div>
               <div className="Work-list-tech">
                 <span>Python</span> <span>Django</span>
@@ -53,8 +62,12 @@ const WorkList=()=>{
                 </p>
               </div>
               <div className="Work-list-buttons">
-                <span>Visit Site</span>
-                <span>View Code</span>
+                <span onClick={openSite} id="Battle Site">
+                  Visit Site
+                </span>
+                <span onClick={openSite} id="Battle Site">
+                  View Code
+                </span>
               </div>
               <div className="Work-list-tech">
                 <span>Javascript</span> <span>Jest</span>
@@ -83,7 +96,9 @@ const WorkList=()=>{
                 </p>
               </div>
               <div className="Work-list-buttons">
-                <span>Visit Site</span>
+                <span onClick={openSite} id="Read Site">
+                  Visit Site
+                </span>
               </div>
               <div className="Work-list-tech">
                 <span>React</span> <span>Redux</span>

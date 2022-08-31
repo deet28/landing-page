@@ -8,17 +8,21 @@ const Footer = () => {
 
   return (
     <>
-    <div className = "Footer-border"></div>
-    <div className = "Footer-main">
-      <div className = "Footer-nest">
-        <img className = "Footer-icon linkedin" src = {linkedIn}/>
-        <img className = "Footer-icon github" src = {github}/>
-        <img className = "Footer-icon resume" src = {resume}/>
-        <img className = "Footer-icon email" src = {email}/>
+      <div className="Footer-border"></div>
+      <div className="Footer-main">
+        <div className="Footer-nest">
+          <img
+            className="Footer-icon linkedin"
+            src={linkedIn}
+            alt="Linked in icon"
+          />
+          <img className="Footer-icon github" src={github} alt="Git hub  Icon" />
+          <img className="Footer-icon resume" src={resume} alt="Resume Icon" />
+          <img className="Footer-icon email" src={email} alt="Email Icon" />
+        </div>
       </div>
-    </div>
     </>
-  )
+  );
 }
 
 export default React.memo(Footer)

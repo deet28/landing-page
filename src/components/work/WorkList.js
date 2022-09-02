@@ -15,20 +15,10 @@ const WorkList=()=>{
                 <p className="Work-list-p">
                   Worked as a mobile app developer for Langauge Library, a
                   Language Learning App currently available in the app store.
-                  Tasks included:
-                  <br />
-                  1.Using Github to work with a team of developers in order to
-                  create, test, and deploy code.
-                  <br />
-                  2.Debugging code whenever necessary.
-                  <br />
-                  3.Communicating effectively with team in order to produce code
-                  efficiently.
-                  <br />
-                  4.Using Firebase and AWS to manage data storage and retrieval.
-                  <br />
-                  5. Using Redux and Sagas to handle state management on the
-                  app.
+                  During this role I worked with a team of developers in order to
+                  create, test, and deploy code. We used Github to manage workflow and 
+                  software implementation. Data storage was handled using a hybrid of 
+                  Firebase and AWS. State management was handled using Redux and Redux-Sagas.
                 </p>
               </div>
               <div className="Work-list-buttons">
@@ -51,20 +41,8 @@ const WorkList=()=>{
             <div className="Work-list-item">
               <div className="Work-list-item-nest">
                 <p className="Work-list-p">
-                  Created and deployed websites for clients using React, and
-                  netlify. Tasks included:
-                  <br />
-                  1.Communicating effectively with clients in order to gauge
-                  their needs and translate these needs into working websites.
-                  <br />
-                  2.Writing and managing code for clients, as well as hosting
-                  this code after building.
-                  <br />
-                  3.Providing clients with the tools necssary to monitor their
-                  websites after launch.
-                  <br />
-                  4.Connecting a working form model in order to provide client
-                  customers the means to contact them from the website.
+                  Created a landing page for a catering company using React, which is currently being hosted on 
+                  Netlify. Worked with a business owner to establish their aesthetic preferences, and achieved this result using HTML and CSS.
                 </p>
               </div>
               <div className="Work-list-buttons">
@@ -73,10 +51,9 @@ const WorkList=()=>{
                 </span>
               </div>
               <div className="Work-list-tech">
-                <span>React-Native</span>
-                <span>Redux</span> <span>Sagas</span>
-                <span>Firebase</span>
-                <span>AWS</span>
+                <span>React</span>
+                <span>HTML</span> <span>CSS</span>
+                <span>Netlify</span>
               </div>
             </div>
           </div>
@@ -91,15 +68,13 @@ const WorkList=()=>{
             <div className="Work-list-item">
               <div className="Work-list-item-nest">
                 <p className="Work-list-p">
-                  Created a note taking app with a built-in database. This
-                  project was built with Python using the Django framework.
-                  Users can sign up, and are authenticated using Django's user
+                  Created a note taking app using Python and Django. Users can
+                  sign up, and are authenticated using Django's built-in user
                   authentication system. After signing in, users can create
                   books and write notes into specific books. Users only have
                   access to their own notes and books; this access is restricted
-                  using a hybrid of mixins and redirects. This project uses
-                  Django's build in SQLite database. It is hosted on Heroku,
-                  using white noise for configuration.
+                  using a hybrid of mixins and redirects. Data is stored in AWS
+                  RDS with Postgresql in orderto persist user data.
                 </p>
               </div>
               <div className="Work-list-buttons">
@@ -112,8 +87,8 @@ const WorkList=()=>{
               </div>
               <div className="Work-list-tech">
                 <span>Python</span> <span>Django</span>
+                <span>Postgresql</span> <span>AWS-RDS</span>
                 <span>HTML</span> <span>CSS</span>
-                <span>Whitenoise</span>
               </div>
             </div>
           </div>
@@ -145,9 +120,9 @@ const WorkList=()=>{
               </div>
               <div className="Work-list-tech">
                 <span>Javascript</span> <span>Jest</span>
-                <span>HTML</span> <span>CSS</span>
                 <span>Webpack</span>
                 <span>TDD</span> <span>AI</span>
+                <span>HTML</span> <span>CSS</span>
               </div>
             </div>
           </div>

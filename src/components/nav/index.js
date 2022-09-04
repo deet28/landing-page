@@ -17,7 +17,7 @@ const Nav = () => {
       setMobile(false);
       }
     })
-  },[window.innerWidth])
+  },[])
 
   return (
   <nav className = "Nav-main">

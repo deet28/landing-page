@@ -42,12 +42,12 @@ const WorkList=()=>{
               <div className="Work-list-item-nest">
                 <p className="Work-list-p">
                   Created a landing page for a catering company using React, which is currently being hosted on 
-                  Netlify. Worked with a business owner to establish their aesthetic preferences, and achieved this result using HTML and CSS.
+                  Netlify. I worked with the business owner to establish their aesthetic preferences, and we workshopped a layout. I then created this website based on our ideas using React, HTML, and CSS. This website is being hosted on Netlify.
                 </p>
               </div>
               <div className="Work-list-buttons">
-                <span onClick={openSite} id="App Site">
-                  View Example
+                <span onClick={openSite} id="Freelance">
+                  View Website
                 </span>
               </div>
               <div className="Work-list-tech">

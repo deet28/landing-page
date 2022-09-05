@@ -85,6 +85,7 @@
   cursor: pointer;
   background-color:#97a763;
   color:white;
+  text-align: center;
 }
 .Footer-view-code button:hover{
   background-color:#758349;

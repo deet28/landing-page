@@ -4,7 +4,9 @@ export const openSite = (e) => {
   } else if (e.target.id === "Github") {
     window.open("https://www.github.com/deet28");
   } else if (e.target.id === "Resume") {
-    window.open("https://www.google.com");
-  } else if (e.target.id === "Email"){
+    window.open("https://1drv.ms/b/s!Agq4Yt0vQFTGgQpe0U_av0E2FN2_?e=wNPKod");
+  } 
+  else if (e.target.id === "Code"){
+    window.open("https://github.com/deet28/landing-page")
   }
 };

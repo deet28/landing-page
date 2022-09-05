@@ -100,9 +100,7 @@ const WorkList=()=>{
             <div className="Work-list-item">
               <div className="Work-list-item-nest">
                 <p className="Work-list-p">
-                  Created a version of Battleship to keep youths in adolescent
-                  psych unit busy while they had limited access to technology.
-                  This project was made with vanilla JS, HTML, and CSS. Users
+                  Created a version of the board game Battleship. This project was made with vanilla JS, HTML, and CSS. Users
                   play against a computer that randomly places its ships and
                   attacks the player. Computer attacks are decided using AI,
                   which has the computer choosing its subsequent attacks based

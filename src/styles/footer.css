@@ -67,6 +67,29 @@
   transform:translateY(1%);
 }
 
+.Footer-view-code{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tan;
+}
+
+.Footer-view-code button{
+  height:2rem;
+  width:3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom:1.5rem;
+  border:transparent;
+  border-radius:90px;
+  cursor: pointer;
+  background-color:#97a763;
+  color:white;
+}
+.Footer-view-code button:hover{
+  background-color:#758349;
+}
+
 @media screen and (max-width:350px){
   .Footer-main{
     height:30vh;

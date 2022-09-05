@@ -6,6 +6,7 @@ import email from '../../media/icons/email.png'
 import {openSite} from './helpers'
 
 const Footer = () => {
+  const buttonName = "</>"
 
   return (
     <>
@@ -43,6 +44,9 @@ const Footer = () => {
             />
         </div>
       </div>
+    <div className = "Footer-view-code">
+        <button id = "Code" onClick = {openSite}>{buttonName}</button>
+    </div>
     </>
   );
 }

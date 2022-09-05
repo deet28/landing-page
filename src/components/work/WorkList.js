@@ -68,13 +68,13 @@ const WorkList=()=>{
             <div className="Work-list-item">
               <div className="Work-list-item-nest">
                 <p className="Work-list-p">
-                  Created a note taking app using Python and Django. Users can
+                  I created a note taking app using Python and Django. Users can
                   sign up, and are authenticated using Django's built-in user
                   authentication system. After signing in, users can create
                   books and write notes into specific books. Users only have
                   access to their own notes and books; this access is restricted
                   using a hybrid of mixins and redirects. Data is stored in AWS
-                  RDS with Postgresql in orderto persist user data.
+                  RDS with Postgresql in order to persist user data.
                 </p>
               </div>
               <div className="Work-list-buttons">
@@ -88,7 +88,7 @@ const WorkList=()=>{
               <div className="Work-list-tech">
                 <span>Python</span> <span>Django</span>
                 <span>Postgresql</span> <span>AWS-RDS</span>
-                <span>HTML</span> <span>CSS</span>
+                <span>CSS</span>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ const WorkList=()=>{
             <div className="Work-list-item">
               <div className="Work-list-item-nest">
                 <p className="Work-list-p">
-                  Created a version of the board game Battleship. This project was made with vanilla JS, HTML, and CSS. Users
+                  I created a version of the board game Battleship. This project was made with vanilla JS, HTML, and CSS. Users
                   play against a computer that randomly places its ships and
                   attacks the player. Computer attacks are decided using AI,
                   which has the computer choosing its subsequent attacks based

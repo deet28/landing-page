@@ -34,9 +34,3 @@ return (
 }
 export default React.memo (TechList)
 
-//https://www.freecodecamp.org/certification/fccc4678536-8929-47a1-ba8b-ec9abbf0bbb3/javascript-algorithms-and-data-structures
-
-//https://www.freecodecamp.org/certification/fccc4678536-8929-47a1-ba8b-ec9abbf0bbb3/responsive-web-design
-
-//
-

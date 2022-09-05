@@ -76,12 +76,12 @@
 
 .Footer-view-code button{
   height:2.2rem;
-  width:2.5rem;
-  font-size: 1.1rem;
-  font-weight: bold;
+  width:3rem;
+  font-size: 1rem;
+  font-weight: 900;
   margin-bottom:1.5rem;
   border:transparent;
-  border-radius:90px;
+  border-radius:10px;
   cursor: pointer;
   background-color:#97a763;
   color:white;
@@ -89,11 +89,6 @@
 }
 .Footer-view-code button:hover{
   background-color:#758349;
-}
-@media screen and (max-width:550px){
-  .Footer-view-code button{
-    font-size:1rem;
-  }
 }
 
 @media screen and (max-width:350px){

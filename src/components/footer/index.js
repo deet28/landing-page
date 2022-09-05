@@ -6,7 +6,7 @@ import email from '../../media/icons/email.png'
 import {openSite} from './helpers'
 
 const Footer = () => {
-  const buttonName="</>"
+  const buttonName="<code />"
 
   return (
     <>

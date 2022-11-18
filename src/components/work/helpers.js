@@ -1,6 +1,6 @@
 export const openSite = (e) => {
   if (e.target.id === "Freelance"){
-    window.open("https://shuckologist.netlify.app");
+    window.open("https://shuckologist.com");
   }
   else if (e.target.id === "Note Site"){
     if (e.target.textContent === 'Visit Site'){
